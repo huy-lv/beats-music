@@ -1,0 +1,46 @@
+const words = [
+  [
+    { name: 'IN THE GARAGE', genreMap: [{ genreId: 'g.115', score: 5 }, { genreId: 'g.71', score: 5 }] },
+    { name: 'ON A BOAT', genreMap: [{ genreId: 'g.42', score: 5 }] },
+    { name: 'AT MY COMPUTER', genreMap: [{ genreId: 'g.136', score: 10 }] },
+    { name: 'KIND OF A BIG DEAL', genreMap: [{ genreId: 'g.129', score: 10 }] },
+    { name: 'IN MY RIDE', genreMap: [] },
+    { name: 'AT THE GYM', genreMap: [] },
+    { name: 'ON THE SUBWAY', genreMap: [] },
+    { name: 'FASHIONABLY LATE', genreMap: [] },
+    { name: 'IN THE FUTURE', genreMap: [] },
+  ],
+  [
+    { name: 'INNOVATING', genreMap: [{ genreId: 'g.115', score: 10 }] },
+    { name: 'NAPPING', genreMap: [] },
+    { name: 'BBQING', genreMap: [{ genreId: 'g.42', score: 5 }] },
+    { name: 'WORKING', genreMap: [] },
+    { name: 'PARTYING', genreMap: [] },
+    { name: 'FINGERPAINTING', genreMap: [] },
+    { name: 'HACKING', genreMap: [{ genreId: 'g.136', score: 10 }] },
+  ],
+  [
+    { name: 'MY COHORT', genreMap: [] },
+    { name: 'MY CO-WORKERS', genreMap: [] },
+    { name: 'STRANGERS', genreMap: [] },
+    { name: 'ROBOTS', genreMap: [{ genreId: 'g.136', score: 10 }] },
+    { name: 'MY BFF', genreMap: [] },
+    { name: 'YOU', genreMap: [] },
+    { name: 'NOBODY', genreMap: [] },
+  ],
+  [
+    { name: 'HIP-HOP', genreMap: [{ genreId: 'g.173', score: 10 }] },
+    { name: 'CLASSIC ROCK', genreMap: [{ genreId: 'g.42', score: 10 }] },
+    { name: 'ALTERNATIVE', genreMap: [{ genreId: 'g.33', score: 10 }] },
+    { name: 'POP', genreMap: [{ genreId: 'g.115', score: 10 }] },
+    { name: 'ELECTRONIC', genreMap: [{ genreId: 'g.71', score: 10 }] },
+    { name: 'R&B', genreMap: [] },
+    { name: 'COUNTRY', genreMap: [] },
+    { name: 'METAL', genreMap: [] },
+    { name: 'CLASSICAL', genreMap: [] },
+    { name: 'RAP', genreMap: [] },
+    { name: 'FOLK', genreMap: [] },
+  ],
+];
+
+export default words;
